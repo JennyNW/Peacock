@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 26,
+    "height" : 38
+  }, {
+    "width" : 52,
+    "height" : 75
+  }, {
+    "width" : 103,
+    "height" : 150
+  }, {
+    "width" : 205,
+    "height" : 300
+  }, {
+    "width" : 409,
+    "height" : 600
+  }, {
+    "width" : 818,
+    "height" : 1200
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 818,
+  "@id" : "https://JennyNW.github.io/Peacock/images/Or2784_0472Peacock",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1200
+}
