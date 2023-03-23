@@ -1,0 +1,66 @@
+{
+  "id" : "https://JennyNW.github.io/Peacock/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in JennyNW/Peacock project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 818,
+    "id" : "https://JennyNW.github.io/Peacock/images/Or2784_0472Peacock/canvas/",
+    "label" : {
+      "none" : [ "Or2784_0472Peacock" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://JennyNW.github.io/Peacock/images/Or2784_0472Peacock/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://JennyNW.github.io/Peacock/images/Or2784_0472Peacock/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 26,
+              "height" : 38
+            }, {
+              "width" : 52,
+              "height" : 75
+            }, {
+              "width" : 103,
+              "height" : 150
+            }, {
+              "width" : 205,
+              "height" : 300
+            }, {
+              "width" : 409,
+              "height" : 600
+            }, {
+              "width" : 818,
+              "height" : 1200
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 818,
+            "@id" : "https://JennyNW.github.io/Peacock/images/Or2784_0472Peacock",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1200
+          } ],
+          "format" : "image/jpeg",
+          "width" : 818,
+          "id" : "https://JennyNW.github.io/Peacock/images/Or2784_0472Peacock/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1200
+        },
+        "target" : "https://JennyNW.github.io/Peacock/images/Or2784_0472Peacock/canvas/"
+      } ]
+    } ],
+    "height" : 1200
+  } ]
+}
