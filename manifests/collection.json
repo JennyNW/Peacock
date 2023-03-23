@@ -1,0 +1,13 @@
+{
+  "id" : "https://JennyNW.github.io/Peacock/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in JennyNW/Peacock project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JennyNW.github.io/Peacock/manifests/Peacockmanifest4.json",
+    "label" : "Jenny's peacocks"
+  } ]
+}
