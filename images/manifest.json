@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 846,
+    "id" : "https://JennyNW.github.io/Peacock/images/Or1621_0796Peacock/canvas/",
+    "label" : {
+      "none" : [ "Or1621_0796Peacock" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://JennyNW.github.io/Peacock/images/Or1621_0796Peacock/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://JennyNW.github.io/Peacock/images/Or1621_0796Peacock/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 27,
+              "height" : 38
+            }, {
+              "width" : 53,
+              "height" : 75
+            }, {
+              "width" : 106,
+              "height" : 150
+            }, {
+              "width" : 212,
+              "height" : 300
+            }, {
+              "width" : 423,
+              "height" : 600
+            }, {
+              "width" : 846,
+              "height" : 1200
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 846,
+            "@id" : "https://JennyNW.github.io/Peacock/images/Or1621_0796Peacock",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1200
+          } ],
+          "format" : "image/jpeg",
+          "width" : 846,
+          "id" : "https://JennyNW.github.io/Peacock/images/Or1621_0796Peacock/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1200
+        },
+        "target" : "https://JennyNW.github.io/Peacock/images/Or1621_0796Peacock/canvas/"
+      } ]
+    } ],
+    "height" : 1200
+  }, {
     "width" : 809,
     "id" : "https://JennyNW.github.io/Peacock/images/Or14140_0241Peacock/canvas/",
     "label" : {
