@@ -45,32 +45,6 @@
       } ],
       "related" : ""
     }, {
-      "@id" : "http://bb3531ab-bec0-41e8-92ed-2a4d46915e0b",
-      "@type" : "sc:Canvas",
-      "label" : "The Peacock from Or 1621",
-      "height" : 1200,
-      "width" : 846,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://3b1bc5df-9b99-46cf-95ed-26e3534b27e5",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://jennynw.github.io/Peacock/images/Or1621_0796Peacock/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://jennynw.github.io/Peacock/images/Or1621_0796Peacock",
-            "profile" : "http://iiif.io/api/image/2/level0.json"
-          },
-          "height" : 1200,
-          "width" : 846
-        },
-        "on" : "http://bb3531ab-bec0-41e8-92ed-2a4d46915e0b"
-      } ],
-      "related" : ""
-    }, {
       "@id" : "http://06efe9f0-0851-4eac-ad25-a4cc8cf8d386",
       "@type" : "sc:Canvas",
       "label" : " The Peacock from Or 14140",
@@ -96,6 +70,32 @@
         "on" : "http://06efe9f0-0851-4eac-ad25-a4cc8cf8d386"
       } ],
       "related" : ""
+    }, {
+      "@id" : "http://bb3531ab-bec0-41e8-92ed-2a4d46915e0b",
+      "@type" : "sc:Canvas",
+      "label" : "The Peacock from Or 1621",
+      "height" : 1200,
+      "width" : 846,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3b1bc5df-9b99-46cf-95ed-26e3534b27e5",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://jennynw.github.io/Peacock/images/Or1621_0796Peacock/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://jennynw.github.io/Peacock/images/Or1621_0796Peacock",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1200,
+          "width" : 846
+        },
+        "on" : "http://bb3531ab-bec0-41e8-92ed-2a4d46915e0b"
+      } ],
+      "related" : ""
     } ]
   } ],
   "structures" : [ {
@@ -103,16 +103,16 @@
     "@type" : "sc:Range",
     "label" : "Table of Content",
     "viewingHint" : "top",
-    "ranges" : [ "http://example.org/iiif/book1/range/intro", "http://example.org/iiif/book1/range/chapter2" ]
+    "ranges" : [ "http://example.org/iiif/book1/range/Na't al-Ḥayawān", "http://example.org/iiif/book1/range/'Ajā'ib al-Makhlūqāt" ]
   }, {
-    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@id" : "http://example.org/iiif/book1/range/Na't al-Ḥayawān",
     "@type" : "sc:Range",
-    "label" : "Introduction",
+    "label" : "Na't al-Ḥayawān",
     "canvases" : [ "http://f4ab262c-23cd-46b0-8b10-fe2e69efdcd8" ]
   }, {
-    "@id" : "http://example.org/iiif/book1/range/chapter2",
+    "@id" : "http://example.org/iiif/book1/range/'Ajā'ib al-Makhlūqāt",
     "@type" : "sc:Range",
-    "label" : "Chapter 2",
+    "label" : "'Ajā'ib al-Makhlūqāt",
     "canvases" : [ "http://06efe9f0-0851-4eac-ad25-a4cc8cf8d386" ]
   } ]
 }
