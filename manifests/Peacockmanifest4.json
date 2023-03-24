@@ -3,14 +3,14 @@
   "@id" : "https://JennyNW.github.io/Peacock/manifests/Peacockmanifest4.json",
   "@type" : "sc:Manifest",
   "viewingHint" : "individuals",
-  "label" : "Jenny's peacocks",
+  "label" : "Peacocks in Arabic and Persian manuscripts",
   "metadata" : [ ],
   "description" : [ {
     "@value" : "[Three pictures of peacocks]",
     "@language" : "en"
   } ],
-  "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "[QDL images]",
+  "license" : "https://creativecommons.org/publicdomain/mark/1.0/",
+  "attribution" : "[Public Domain]",
   "sequences" : [ {
     "@id" : "http://102619ad-c6da-4a2d-ac11-3378ab9bf72f",
     "@type" : "sc:Sequence",
@@ -101,7 +101,7 @@
   "structures" : [ {
     "@id" : "http://example.org/iiif/book1/range/top",
     "@type" : "sc:Range",
-    "label" : "Table of Content",
+    "label" : "Table of Contents",
     "viewingHint" : "top",
     "ranges" : [ "http://example.org/iiif/book1/range/Na't al-Ḥayawān", "http://example.org/iiif/book1/range/'Ajā'ib al-Makhlūqāt" ]
   }, {
