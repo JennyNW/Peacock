@@ -5,5 +5,9 @@
   },
   "type" : "Collection",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ ]
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JennyNW.github.io/Peacock/manifests/Peacockmanifest5.json",
+    "label" : "Peacocks in Arabic and Persian manuscripts"
+  } ]
 }
