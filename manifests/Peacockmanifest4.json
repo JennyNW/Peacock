@@ -4,9 +4,18 @@
   "@type" : "sc:Manifest",
   "viewingHint" : "individuals",
   "label" : "Peacocks in Arabic and Persian manuscripts",
-  "metadata" : [ ],
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Jenny"
+  }, {
+    "label" : "Copied",
+    "value" : [ {
+      "@value" : "Between the 13th and the 17th centuries",
+      "@language" : "en"
+    } ]
+  } ],
   "description" : [ {
-    "@value" : "[Three pictures of peacocks]",
+    "@value" : "[A collection of images of peacocks]",
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/publicdomain/mark/1.0/",
